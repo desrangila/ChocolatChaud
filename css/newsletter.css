@@ -1,0 +1,67 @@
+
+body{
+	font-family: "Lucida Grande", Lucida;
+	font-size: 12px;
+	color: #993300;
+	text-shadow: #F5EED9 1px 1px 0px;
+	background-image: url('../img/background.jpg');
+	line-height: 1.5em;
+}
+
+a{
+	color: #993300;
+	text-decoration: none;
+	font-family: "HelveticaNeue-Bold","Helvetica",Arial;
+	text-shadow: #F5EED9 1px 1px 0px;
+}
+
+a:hover{
+	text-decoration: none;
+	border-bottom: 1px solid #993300;
+}
+
+
+div#header{
+	text-align: center;
+}
+
+div#header h1{
+	font-family: "HelveticaNeue-Light","Helvetica",Arial;
+	font-weight: normal;
+	font-size: 50px;
+	margin-bottom: 0px;
+}
+
+#container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;}
+
+div#content{
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+
+.logged div#content{background: url('../img/mugon.png') no-repeat center top;}
+.home div#content,
+.error div#content{background: url('../img/mugoff.png') no-repeat center top;}
+
+div#content-inner{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	background: url('../img/transparant.png');
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+div#content-inner p{
+	text-align: left;
+}
+
+div#footer{
+	text-align: center;
+}
+
