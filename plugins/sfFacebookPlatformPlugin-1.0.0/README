@@ -1,0 +1,26 @@
+This plugin makes it easier to use the facebook platform in your symfony application
+
+add the module sfFacebook to settings.yml
+
+{{{
+all:
+  enabled_modules:        [default, ..., sfFacebook]
+}}}
+
+
+Define this route:
+
+{{{
+sfFacebook:
+  url: /facebook
+  params: { module: sfFacebook, action: index }
+}}}
+
+define in app.yml
+
+all:
+  facebook:
+    api_key: [from facebook]
+    api_secret: [from facebook]
+    callback_url: [your callback url]
+    

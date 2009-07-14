@@ -1,0 +1,5 @@
+Hour:
+  actAs: { Timestampable: ~ }
+  columns:
+    user_id: { type:integer, notnull: true }
+    time: { type: timestamp, notnull: true }

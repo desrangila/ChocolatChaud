@@ -1,0 +1,6 @@
+# default values
+all:
+  facebook:
+    api_key: 74754189709604e3810d809a9d8117b7
+    api_secret: 3c573565269d12bcc4c03fb0573c1f27
+    callback_url: http://fab.chocolatchaud.org
